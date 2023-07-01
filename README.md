@@ -4,15 +4,15 @@ Wine quality prediction with XAI (Explainable Artificial Intelligence) refers to
 
 Here's a general overview of how wine quality prediction with XAI can be approached:
 
-Data collection: Gather a dataset that includes features (inputs) and corresponding wine quality labels (output). The features may include chemical properties of the wine, such as acidity, pH, residual sugar, alcohol content, etc. The wine quality labels could be numerical ratings or categorical labels.
+<b>Data collection:</b> Gather a dataset that includes features (inputs) and corresponding wine quality labels (output). The features may include chemical properties of the wine, such as acidity, pH, residual sugar, alcohol content, etc. The wine quality labels could be numerical ratings or categorical labels.
 
-Data preprocessing: Clean the dataset by handling missing values, outliers, and any other data quality issues. Perform feature scaling, normalization, or other transformations to ensure consistent data representation.
+<b>Data preprocessing:</b> Clean the dataset by handling missing values, outliers, and any other data quality issues. Perform feature scaling, normalization, or other transformations to ensure consistent data representation.
 
-Model training: Select a machine learning algorithm suitable for wine quality prediction, such as regression, classification, or ensemble methods. Split the dataset into training and testing sets. Train the model on the training set, optimizing its parameters using techniques like cross-validation or grid search.
+<b>Model training:</b> Select a machine learning algorithm suitable for wine quality prediction, such as regression, classification, or ensemble methods. Split the dataset into training and testing sets. Train the model on the training set, optimizing its parameters using techniques like cross-validation or grid search.
 
-Model evaluation: Assess the performance of the trained model using appropriate evaluation metrics, such as mean squared error (MSE) for regression or accuracy, precision, and recall for classification. Evaluate the model's generalization ability on the testing set.
+<b>Model evaluation:</b> Assess the performance of the trained model using appropriate evaluation metrics, such as mean squared error (MSE) for regression or accuracy, precision, and recall for classification. Evaluate the model's generalization ability on the testing set.
 
-Explainability techniques: Apply XAI techniques to understand and interpret the model's predictions. Some popular XAI methods include:
+<b>Explainability techniques:</b> Apply XAI techniques to understand and interpret the model's predictions. Some popular XAI methods include:
 
 a. Feature importance: Identify the most important features contributing to the wine quality prediction. Techniques like permutation importance, SHAP (SHapley Additive exPlanations), or LIME (Local Interpretable Model-Agnostic Explanations) can provide insights into feature contributions.
 
